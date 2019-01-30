@@ -1,0 +1,8 @@
+
+include('app-multiproj-spring-java-gradle-core', ':app-multiproj-spring-java-gradle-domain', ':java-util')
+
+project(':app-multiproj-spring-java-gradle-core').projectDir = new File('./core/app-multiproj-spring-java-gradle-core')
+
+project(':app-multiproj-spring-java-gradle-domain').projectDir = new File('./domain/app-multiproj-spring-java-gradle-domain')
+
+project(':java-util').projectDir = new File('C:/Users/aya-win10/engineering/projects/java/java-util')
